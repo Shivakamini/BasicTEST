@@ -12,7 +12,7 @@ public class Basic {
 	@Test
 	public void basictest() throws InterruptedException
 {
-
+       //mthod
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com");

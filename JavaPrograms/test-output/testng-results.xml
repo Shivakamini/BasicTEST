@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-23T19:56:11 IST" name="Default suite" finished-at="2022-02-23T19:56:42 IST" duration-ms="30558">
+    <groups>
+    </groups>
+    <test started-at="2022-02-23T19:56:11 IST" name="Default test" finished-at="2022-02-23T19:56:42 IST" duration-ms="30558">
+      <class name="com.Hybrid.HybridScript">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.Hybrid.HybridScript@45099dd3]" started-at="2022-02-23T19:56:11 IST" name="openBrowser" finished-at="2022-02-23T19:56:19 IST" duration-ms="7958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="CHYDtoChn(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Hybrid.HybridScript@45099dd3]" started-at="2022-02-23T19:56:21 IST" name="CHYDtoChn" data-provider="getTestData" finished-at="2022-02-23T19:56:31 IST" duration-ms="9990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivakamini5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anusurya@14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HYDERABAD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BANGALORE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[24-Feb-2022]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25-Feb-2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CHYDtoChn -->
+        <test-method signature="CHYDtoChn(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Hybrid.HybridScript@45099dd3]" started-at="2022-02-23T19:56:31 IST" name="CHYDtoChn" data-provider="getTestData" finished-at="2022-02-23T19:56:38 IST" duration-ms="7016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivakamini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amma@14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CHENNAI]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HYDERABAD]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[25-Feb-2022]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[26-Feb-2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CHYDtoChn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Hybrid.HybridScript@45099dd3]" started-at="2022-02-23T19:56:38 IST" name="closeBrowser" finished-at="2022-02-23T19:56:42 IST" duration-ms="3407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Hybrid.HybridScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

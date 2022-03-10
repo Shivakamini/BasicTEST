@@ -62,7 +62,8 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>HYDtoVJY.xml</suiteXmlFile>
+						<suiteXmlFile>basictest.xml</suiteXmlFile>
+                        <suiteXmlFile>basic2.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

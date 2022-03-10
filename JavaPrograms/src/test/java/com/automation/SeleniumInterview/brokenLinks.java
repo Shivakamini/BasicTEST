@@ -24,6 +24,7 @@ public class brokenLinks {
 		List<WebElement> links=driver.findElements(By.tagName("a"));
 		Iterator<WebElement> it=links.iterator();
 		String url = it.next().getAttribute("href");
+		System.out.println(url);
 		if(url==null || url.isEmpty())
 		{
 			System.out.println("URL is not configured");

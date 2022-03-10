@@ -19,5 +19,6 @@ public class Basic {
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		driver.close();
+		System.out.println("suite1");
 }
 }

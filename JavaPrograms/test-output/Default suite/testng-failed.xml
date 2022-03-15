@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.KeywordDriven.KeywordScript">
+      <class name="com.DataDriven.ExcelDataDriven">
         <methods>
+          <include name="dataDriven" invocation-numbers="0 1"/>
           <include name="closeBrowser"/>
-          <include name="KeywordDriven" invocation-numbers="10"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.KeywordDriven.KeywordScript -->
+      </class> <!-- com.DataDriven.ExcelDataDriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

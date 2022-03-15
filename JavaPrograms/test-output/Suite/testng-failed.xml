@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="HybridScript(failed)">
-    <parameter name="Browser" value="CHROME"/>
+  <test thread-count="5" name="TC01_HYDtoVJY(failed)">
     <classes>
-      <class name="com.Hybrid.HybridScript">
+      <class name="com.testNG.TC01_HYDtoVJY">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="CHYDtoChn" invocation-numbers="0 1"/>
-          <include name="openBrowser"/>
+          <include name="AHYDtoVJY"/>
         </methods>
-      </class> <!-- com.Hybrid.HybridScript -->
+      </class> <!-- com.testNG.TC01_HYDtoVJY -->
     </classes>
-  </test> <!-- HybridScript(failed) -->
+  </test> <!-- TC01_HYDtoVJY(failed) -->
 </suite> <!-- Failed suite [Suite] -->

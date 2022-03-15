@@ -9,6 +9,7 @@ public class Basic2 {
 
 		System.out.println("suite2");
 
+
 	}
 
 }

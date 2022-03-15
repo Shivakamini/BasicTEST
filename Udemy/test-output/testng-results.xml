@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-15T14:21:44 IST" name="Default suite" finished-at="2022-03-15T14:22:02 IST" duration-ms="17918">
+    <groups>
+    </groups>
+    <test started-at="2022-03-15T14:21:44 IST" name="Default test" finished-at="2022-03-15T14:22:02 IST" duration-ms="17918">
+      <class name="com.PageFactory.FactoryCompleteScript">
+        <test-method signature="FactoryTest()[pri:0, instance:com.PageFactory.FactoryCompleteScript@82de64a]" started-at="2022-03-15T14:21:45 IST" name="FactoryTest" finished-at="2022-03-15T14:22:02 IST" duration-ms="17827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FactoryTest -->
+      </class> <!-- com.PageFactory.FactoryCompleteScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -17,10 +17,7 @@ public class LargestVerNumfromArray {
 				max=a[i];
 			}
 		}
-		for(int i=0;i<a.length;i++)
-		{
-			System.out.println(a[i]);
-		}
+		
 		System.out.println("max or latest version:"+max);
 		
 

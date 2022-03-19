@@ -31,6 +31,7 @@ public class Arraylist {
 		 System.out.println(list);
 		 System.out.println(list.size());
 		 
+		 
 		 for(String str:list)//other way to traverse among list elements
 		 {
 			 System.out.println(str);

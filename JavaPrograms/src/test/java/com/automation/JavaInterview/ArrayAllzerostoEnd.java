@@ -14,7 +14,8 @@ public class ArrayAllzerostoEnd {
 		{
 			if(a[i]!=0)
 			{
-				a[count++]=a[i];
+				a[count++]=a[i];	
+				//System.out.println(count);
 			}
 		}
 		while(count<a.length)

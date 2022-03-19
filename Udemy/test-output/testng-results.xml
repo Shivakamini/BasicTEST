@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-15T14:21:44 IST" name="Default suite" finished-at="2022-03-15T14:22:02 IST" duration-ms="17918">
+  <suite started-at="2022-03-15T18:01:35 IST" name="Default suite" finished-at="2022-03-15T18:01:36 IST" duration-ms="189">
     <groups>
     </groups>
-    <test started-at="2022-03-15T14:21:44 IST" name="Default test" finished-at="2022-03-15T14:22:02 IST" duration-ms="17918">
-      <class name="com.PageFactory.FactoryCompleteScript">
-        <test-method signature="FactoryTest()[pri:0, instance:com.PageFactory.FactoryCompleteScript@82de64a]" started-at="2022-03-15T14:21:45 IST" name="FactoryTest" finished-at="2022-03-15T14:22:02 IST" duration-ms="17827" status="PASS">
+    <test started-at="2022-03-15T18:01:35 IST" name="Default test" finished-at="2022-03-15T18:01:36 IST" duration-ms="189">
+      <class name="com.TestNGSampleScripts.Demo1">
+        <test-method signature="MSRTest()[pri:2, instance:com.TestNGSampleScripts.Demo1@67f639d3]" started-at="2022-03-15T18:01:35 IST" name="MSRTest" finished-at="2022-03-15T18:01:35 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FactoryTest -->
-      </class> <!-- com.PageFactory.FactoryCompleteScript -->
+        </test-method> <!-- MSRTest -->
+        <test-method signature="MBLTest()[pri:0, instance:com.TestNGSampleScripts.Demo1@67f639d3]" started-at="2022-03-15T18:01:36 IST" name="MBLTest" finished-at="2022-03-15T18:01:36 IST" depends-on-methods="com.TestNGSampleScripts.Demo1.MSRTest" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBLTest -->
+        <test-method signature="MBRTest()[pri:3, instance:com.TestNGSampleScripts.Demo1@67f639d3]" started-at="2022-03-15T18:01:36 IST" name="MBRTest" finished-at="2022-03-15T18:01:36 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBRTest -->
+      </class> <!-- com.TestNGSampleScripts.Demo1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

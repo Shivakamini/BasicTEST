@@ -16,8 +16,8 @@
 		<Logger name="com.TestNg2.LoggerScript3" level="trace" additivity="false">
 			<AppenderRef ref="Console" />
 		</Logger>
-		<Root level="trace">
-			<AppenderRef ref="File" />
+		<Root level="error">
+			<AppenderRef ref="Console" />
 		</Root>
 	</Loggers>
 </Configuration>

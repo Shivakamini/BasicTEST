@@ -12,8 +12,7 @@ public class PrimeClass {
 				if(num%i==0)
 				{
 					count++;
-				}
-				
+				}				
 			}
 			if(count==2)
 			{

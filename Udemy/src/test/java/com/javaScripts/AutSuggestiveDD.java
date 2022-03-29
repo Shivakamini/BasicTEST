@@ -28,15 +28,12 @@ public class AutSuggestiveDD {
 		a.sendKeys(Keys.ENTER).perform();*/
 		
 		driver.findElement(By.xpath("//input[@id='autosuggest']")).sendKeys("ind");
-		List<WebElement> options=driver.findElements(By.xpath("//li[@class='ui-menu-item']/a"));
-		System.out.println(options.size());
-		for(WebElement option:options)
-		{
-			if(option.getText().equalsIgnoreCase("Indonesia"))
-			{
-				option.click();
-			}
-		}
+		/*
+		 * List<WebElement>
+		 * options=driver.findElements(By.xpath("//li[@class='ui-menu-item']/a"));
+		 * System.out.println(options.size()); for(WebElement option:options) {
+		 * if(option.getText().equalsIgnoreCase("Indonesia")) { option.click(); } }
+		 */
 		
 	}
 

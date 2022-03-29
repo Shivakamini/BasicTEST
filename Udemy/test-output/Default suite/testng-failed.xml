@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.PageFactory.FactoryCompleteScript">
+      <class name="com.PageFactory.PageNavigatePOM">
         <methods>
-          <include name="FactoryTest"/>
+          <include name="navigatePOM"/>
         </methods>
-      </class> <!-- com.PageFactory.FactoryCompleteScript -->
+      </class> <!-- com.PageFactory.PageNavigatePOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

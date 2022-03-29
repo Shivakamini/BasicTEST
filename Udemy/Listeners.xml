@@ -8,5 +8,5 @@
 		<classes>
 			<class name="com.TestNGSampleScripts.ListenerDemo" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test>
+</suite> 

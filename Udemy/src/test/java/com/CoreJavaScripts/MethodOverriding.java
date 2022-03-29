@@ -27,10 +27,9 @@ public class MethodOverriding extends start{
 	{
 		System.out.println("kannayya4");
 	}
-	static void m2()
-	{
-		System.out.println("shivayya2");
-	}
+	
+	  static void m2() { System.out.println("shivayya2"); }
+	 
 
 	public static void main(String[] args) {
 
@@ -40,6 +39,7 @@ public class MethodOverriding extends start{
 		  MethodOverriding.m2(); 
 		  ob.m3();
 		  ob.m4();
+		  m2();
 		 
 		  System.out.println("break");
 		  

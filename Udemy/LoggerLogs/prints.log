@@ -1,5 +1,5 @@
-14:53:38.517 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x8f275bce15f2d57e
-15:20:41.830 [main] DEBUG com.TestNGSampleScripts.LoggerScript2 - I am debugging
-15:20:41.865 [main] INFO  com.TestNGSampleScripts.LoggerScript2 - done debugging
-15:20:41.865 [main] ERROR com.TestNGSampleScripts.LoggerScript2 - find errors
-15:20:41.866 [main] FATAL com.TestNGSampleScripts.LoggerScript2 - find more errors
+10:23:18.922 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x326c1fab8ee2c54a
+16:02:21.602 [main] DEBUG com.TestNGSampleScripts.LoggerScript - I am debugging
+16:02:21.607 [main] INFO  com.TestNGSampleScripts.LoggerScript - done debugging
+16:02:21.607 [main] ERROR com.TestNGSampleScripts.LoggerScript - find errors
+16:02:21.607 [main] FATAL com.TestNGSampleScripts.LoggerScript - find more errors

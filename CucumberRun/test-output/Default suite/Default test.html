@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 14 09:55:25 IST 2022</td>
+<td>Started on:</td><td>Thu Mar 24 13:49:54 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23705 ms)</td>
+<tr><td>Total time:</td><td>61 seconds (61017 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,18 +67,41 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Baisc.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.Baisc.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BasicScript", "Optional[APSRTC]"</td>
-<td></td>
-<td>20</td>
-<td>com.Baisc.TestRunner@7674f035</td></tr>
+<td title='com.HooksTags.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.HooksTags.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "HYDTOBnglr", "Optional[APSRTC]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //input[@id=&apos;fromPlaceName&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-N1TLI8FE&apos;, ip: &apos;192.168.100.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.HooksTags.APSRTChookstags.searchBnglr(APSRTChookstags.java:62)
+	at ?.Enter details HYDtoBnglr and click on Search(file:///C:/Users/Shiva/git/repository/CucumberRun/src/test/resources/Features/APSRTCHooksTags.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace497877502", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace497877502'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //input[@id=&apos;fromPlaceName&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-N1TLI8FE&apos;, ip: &apos;192.168.100.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.HooksTags.APSRTChookstags.searchBnglr(APSRTChookstags.java:62)
+	at ?.Enter details HYDtoBnglr and click on Search(file:///C:/Users/Shiva/git/repository/CucumberRun/src/test/resources/Features/APSRTCHooksTags.feature:10)
+</pre></div></td>
+<td>59</td>
+<td>com.HooksTags.TestRunner@7674f035</td></tr>
 </table><p>
 </body>
 </html>

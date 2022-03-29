@@ -30,7 +30,7 @@ public class AmazonPractice {
 		a.moveToElement(driver.findElement(By.cssSelector(".nav-right a[href*='signin']"))).build().perform();
 		Thread.sleep(3000);
 		WebElement element=driver.findElement(By.cssSelector("#nav-al-signin span[class='nav-action-inner']"));
-		a.click(element).click().build().perform();
+		a.click(element).build().perform();
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("input[type='email']")).sendKeys("9493269055");
 	    driver.findElement(By.cssSelector("#continue")).click();

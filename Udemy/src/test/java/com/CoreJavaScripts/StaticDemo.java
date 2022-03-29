@@ -33,8 +33,10 @@ public class StaticDemo {
 	public static void main(String[] args) {
 
 		StaticDemo sd = new StaticDemo("shiva", "gachibolwi");
-		String add = sd.getAddress();
-		System.out.println(add);
+		/*
+		 * String add = sd.getAddress(); System.out.println(add);
+		 */
+		System.out.println(sd.getAddress());
 		StaticDemo sd2 = new StaticDemo("shiva2", "DLF");
 		String add2 = sd2.getAddress();
 		System.out.println(add2);
